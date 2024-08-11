@@ -1,0 +1,23 @@
+{
+    "name": "prositedeveloper/weather",
+    "description": "Package for getting weather any location",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Prositedeveloper\\Weather\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ALG",
+            "email": "aga.davdav@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "larapack/dd": "^1.1",
+        "guzzlehttp/guzzle": "^7.9",
+        "pragmarx/ia-arr": "^7.3"
+    }
+}
